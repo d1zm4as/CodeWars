@@ -5,9 +5,8 @@ a = 3
 b = 1
 
 
+idxa  = arr.index(a)
+idxb  = arr.index(b)
 
-for x,y in zip(arr,arr[1:]):
-    if x==a and y==b or x==b and y==a:
-        print(True)
-    
-print(False)
+
+print(abs(idxa-idxb)==1)
