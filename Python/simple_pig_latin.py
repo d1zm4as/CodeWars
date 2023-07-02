@@ -14,4 +14,3 @@ def pig_it(s):
         copy+=" "
     return copy.strip()
 
-
