@@ -14,3 +14,12 @@ def Xbonacci(sigs,n):
     return seq
 
  #basicament a mesma merda do tribonnaci mas so mudei o lim
+
+
+
+
+
+
+
+
+ 
