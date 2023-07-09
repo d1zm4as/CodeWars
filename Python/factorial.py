@@ -1,4 +1,4 @@
-
+from gmpy2 import fac
 
 def factorial(n):
     fa = 1
