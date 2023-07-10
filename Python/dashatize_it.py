@@ -1,5 +1,3 @@
-def impar(x):
-    return True if int(x)%2!=0 else False
 #n = 274
 # n = 6815
 #n = 86320
@@ -8,6 +6,8 @@ def impar(x):
 ex = str(n)
 copy = ""
 
+def impar(x):
+    return True if int(x)%2!=0 else False
 
 for x in ex:
     if x.isdigit() and impar(x):
