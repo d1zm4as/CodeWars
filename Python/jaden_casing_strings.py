@@ -1,2 +1,3 @@
-def array_diff(a, b):
-    return [x for x in a if x not in b]
+def to_jaden_case(s):
+    return ' '.join([x.capitalize() for x in s.split()])
+    
