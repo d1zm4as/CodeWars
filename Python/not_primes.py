@@ -1,18 +1,16 @@
 from gmpy2 import is_prime
+from gmpy2 import is_prime
 
 
 
 def check(n):
+    if is_prime(n):return False
     for x in str(n):
         if x not in "2357":
             return False
     return True
 
 
-a,b = 2,222
+def not_primes(a,b):
 
-
-
-
-print([x for x in range(a,b) if not  is_prime(x) and check(x)])
-
+    return [x for x in range(a,b) if  check(x)]
