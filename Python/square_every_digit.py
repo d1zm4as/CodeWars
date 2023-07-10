@@ -3,7 +3,6 @@ def square_digits(num):
     if sum(lista)== 0:
         return 0
     
-    total = [x*x for x in lista]
+    total = [str(x*x) for x in lista]
     
-    string =  f"{total[0]}{total[1]}{total[2]}{total[3]}"
-    return int(string)
+    return int("".join(total))
