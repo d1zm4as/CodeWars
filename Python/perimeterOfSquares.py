@@ -5,7 +5,7 @@ def fib(n,memo = {}):
     return memo[n]
 
 
-def solve(n):
+def perimeter(n):
     soma = 0
     for x in range(n+1):
         soma+=fib(x)
