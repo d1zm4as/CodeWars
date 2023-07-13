@@ -5,4 +5,4 @@ def fib(n):
 
 
 
-print(fib(2_000_000))
+print(fib(77)) 
