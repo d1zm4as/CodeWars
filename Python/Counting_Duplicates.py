@@ -9,4 +9,4 @@ def duplicate_count(text):
     return cont
 
 
-print(duplicate_count("sosa))
+print(duplicate_count("sosa"))
