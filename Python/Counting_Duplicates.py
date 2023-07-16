@@ -7,3 +7,6 @@ def duplicate_count(text):
             cont+=1
             
     return cont
+
+
+print(duplicate_count("sosa"))
