@@ -3,3 +3,6 @@ def fib(n):
     for i in range(1, n):
         a, b = b, a + b
     return a
+
+
+print(fib(9))

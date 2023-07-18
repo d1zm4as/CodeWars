@@ -2,7 +2,10 @@
 
 
 int tam(int num){int cont = 0;while(num>0){int mod = num%10; cont+=1;num=num/10; }return cont;}
-int ipow(int base, int exp){int result = 1;for (;;){if (exp & 1)result *= base;exp >>= 1;if (!exp)break;base *= base;}return result;}
+int ipow(int base, int exp){
+    int result = 1;
+    for (;;){
+        if (exp & 1)result *= base;exp >>= 1;if (!exp)break;base *= base;}return result;}
 
 int main(){
     int num;
