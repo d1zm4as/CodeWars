@@ -1,7 +1,2 @@
-
-
 def add(n):
-    def add2(k):
-        return n+k
-    return add2
-
+    return lambda x: x + n
