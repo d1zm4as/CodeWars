@@ -1,5 +1,5 @@
-def parse_float(string):
+def parse_float(strw):
     try:
-        return float(string)
+        return float(strw)
     except:
         return None
