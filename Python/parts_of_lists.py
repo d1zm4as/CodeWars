@@ -1,7 +1,6 @@
 a = ["az", "toto", "picaro", "zone", "kiwi"]
 
 lista = []
-mini = []
 cont = 1
 for x in range(len(a)-1):
     atuais = " ".join(a[:cont])
