@@ -1,5 +1,5 @@
-def min_sum(arr):
-    arr = sorted(lista)
+def min_sum(array):
+    arr = sorted(array)
 
     tam = len(arr)
     half= tam//2
