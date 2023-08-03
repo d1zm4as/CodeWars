@@ -81,6 +81,6 @@ fn to_leet_speak(s: &str) -> String {
 
 
 fn main(){
-    let a  = "!xablau";
+    let a  = "EAI";
     println!("{}",to_leet_speak(a));
 }
