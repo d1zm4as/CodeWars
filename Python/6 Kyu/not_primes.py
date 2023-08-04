@@ -1,5 +1,4 @@
 from gmpy2 import is_prime
-from gmpy2 import is_prime
 
 
 

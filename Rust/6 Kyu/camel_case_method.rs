@@ -1,17 +1,12 @@
-
-
-
-fn main(){
-
-    let a = "hello case";
+fn camel_case(str: &str) -> String {
+    if str == ""{
+        return str.to_string()
+    }
     let mut copy =String::from("");
-    let b = a.split(" ");
+    let b = str.trim().split(" ");
     for x in b{
-        println!("{:?}",x);
         copy = copy.to_owned() + &(x[0..1]).to_uppercase();
         copy = copy.to_owned()+&(x[1..]);
     }
-
-    println!("{:?}",copy);
-
+    copy.to_string()
 }
