@@ -1,15 +1,14 @@
-s = "Hey fellow warriors"
+def spin_words(s):
+    arr = s.split()
 
-arr = s.split()
+    copy = ""
 
-copy = ""
+    for x in arr:
+        if len(x)>=5:
+            copy+= x[::-1]
+            copy+= " "
+        else:
+            copy+=x
+            copy+= " "
 
-for x in arr:
-    if len(x)>=5:
-        copy+= x[::-1]
-        copy+= " "
-    else:
-        copy+=x
-        copy+= " "
-
-print(copy.strip())
+    return copy.strip()
