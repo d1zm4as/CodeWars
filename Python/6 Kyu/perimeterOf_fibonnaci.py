@@ -1,3 +1,4 @@
+
 def fib(n,memo = {}):
     if n in memo:return memo[n]
     if n<=2:return 1
@@ -5,13 +6,9 @@ def fib(n,memo = {}):
     return memo[n]
     
 
-n = 5
-
-h = fib(n+1)
-
-l = fib(n)+h
-
-print(2*h)
-
-print(2*l)
-
+def perimeter(n):
+    if n == 0: return 4
+    h = fib(n+1)
+    l = fib(n)+h
+    return 2*h+2*l
+    
