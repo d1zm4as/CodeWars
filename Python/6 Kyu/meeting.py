@@ -1,7 +1,3 @@
-s = "Fred:Corwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Corwill;Alfred:Corwill"
-
-r  = "(CORWILL, ALFRED)(CORWILL, FRED)(CORWILL, RAPHAEL)(CORWILL, WILFRED)(TORNBULL, BARNEY)(TORNBULL, BETTY)(TORNBULL, BJON)"
-
 def sep(s):
     arr = []
     for x in s.upper().split(";"):
@@ -22,11 +18,8 @@ def turn(arr):
         copy+=")"
     return copy
 
-lista = sep(s)
-print(lista)
-lista = sorted(lista)
-print(lista)
-a = turn(lista)
-print(a)
-print(r)
-print(a==r)
+def meeting(s):
+    lista = sep(s)
+    lista = sorted(lista)
+    a = turn(lista)
+    return a
