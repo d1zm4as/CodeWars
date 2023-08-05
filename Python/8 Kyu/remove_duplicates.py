@@ -1,9 +1,7 @@
-
-
 def distinct(seq):
-    lista = ()
+    lista = []
     for x in seq:
         if x not in lista:
-            lista.add(x)
+            lista.append(x)
     return lista
 
