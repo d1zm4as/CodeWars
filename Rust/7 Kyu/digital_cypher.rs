@@ -52,13 +52,6 @@ fn encode(msg: String, k: i32) -> Vec<i32>
 
     soma
 
-
-
-
-
-
-
-
 }
 
 fn main(){
