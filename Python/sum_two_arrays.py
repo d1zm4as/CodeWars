@@ -1,33 +1,34 @@
-a = [0,9,3,1,5]
+    if not b:
+        return a
+    if not b and not a:
+        return []
+    if not a:
+        if b[0] == 0:
+            return b[1:]
+        return b
+    copyA = ""
+    for x in a:
+        copyA+=str(x)
 
-b = []
-
-copyA = ""
-for x in a:
-    copyA+=str(x)
-
-copyB = ""
-for x in b:
-    copyB+=str(x)
+    copyB = ""
+    for x in b:
+        copyB+=str(x)
 
 
-soma = int(copyA)+int(copyB)
+    soma = int(copyA)+int(copyB)
 
 
-print(soma)
 
-lista= []
+    lista= []
 
-turn = str(soma)
-if soma<0:
-    lista.append(int(turn[1])*-1)
-turn = turn[1:]
-print(turn)
-# for idx,x in enumerate(turn[1:]):
-#     if idx==1:
-#         continue
-#     else:
-#         a = int(x)
-#         lista.append(a)
+    turn = str(soma)
+    if soma<0:
+        lista.append(int(turn[1])*-1)
+        for x in turn[2:]:
+            lista.append(int(x))
 
-print(lista)
+    else:
+        lista.append(int(turn[0]))
+        for x in turn[1:]:
+                lista.append(int(x))
+    return lista
