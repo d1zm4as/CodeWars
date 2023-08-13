@@ -4,3 +4,5 @@ def isDigit(string):
         return True
     except:
         return False
+
+print(isDigit("1.1"))
