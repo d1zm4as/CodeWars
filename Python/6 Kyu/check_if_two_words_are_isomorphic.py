@@ -5,7 +5,7 @@ a  = "RAMBUNCTIOUSLY"
 a = "ABCBACCBA"
 b = "DEFFED"
 b = "THERMODYNAMICS"
-b = "ABCBACCAB"
+b = "ABCBACCAB"                                             
 ca = Counter(a)
 cb = Counter(b)
 
