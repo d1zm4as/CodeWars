@@ -11,3 +11,5 @@ def rotate(s):
     lista.append(s)
     return lista
     
+
+print(rotate("hello)"))

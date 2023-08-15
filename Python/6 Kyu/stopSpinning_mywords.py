@@ -12,3 +12,5 @@ def spin_words(s):
             copy+= " "
 
     return copy.strip()
+
+
