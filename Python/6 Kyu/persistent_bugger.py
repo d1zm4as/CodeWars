@@ -2,14 +2,14 @@ def prod(a):
     n = str(a)
     prod = 1
     for x in n:
-        prod*=int(x)
+        prod = int(x)**2
     return prod
 
 
 
 def persistence(n):
     a = str(n)
-
+    
     cont  = 0 
     if len(a)==1:return 0
     while True:
@@ -19,3 +19,8 @@ def persistence(n):
         cont+=1
         a = b
     return cont +1
+
+    
+print(persistence(39))
+
+

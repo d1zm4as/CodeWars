@@ -8,3 +8,6 @@ def squares(x, n):
         lista.append(atual)
         cont+=1
     return lista
+
+
+print(squares())
