@@ -1,3 +1,4 @@
+def sum_arrays(a,b):
     if not b:
         return a
     if not b and not a:
