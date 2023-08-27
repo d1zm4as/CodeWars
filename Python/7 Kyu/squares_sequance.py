@@ -10,4 +10,3 @@ def squares(x, n):
     return lista
 
 
-print(squares())
