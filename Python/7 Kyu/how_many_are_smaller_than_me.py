@@ -1,5 +1,3 @@
-arr = [5, 4, 3, 2, 1]
-arr =  [1, 2, 0]
 
 def smaller(arr):
     lista=  []
