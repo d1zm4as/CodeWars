@@ -1,4 +1,3 @@
-
 def smaller(arr):
     lista=  []
 
