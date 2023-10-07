@@ -1,3 +1,4 @@
+
 def insert_at_indexes(frase, t, a): 
     lista = []
     for idx,x in enumerate(frase):
