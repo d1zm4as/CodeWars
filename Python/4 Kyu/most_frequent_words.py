@@ -7,9 +7,9 @@ def top_3_words(text):
     
     """
     for c in text:
-        # if it's not alphanumeric or an apostrophe
+        
         if not (c.isalpha() or c=="'"):
-            # replace with a space
+            
             text = text.replace(c,' ')
     lista = [ x for x in text.lower().split()if x not in"#@/'''$%¨&...*(),."]
     
