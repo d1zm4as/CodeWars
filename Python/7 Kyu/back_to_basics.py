@@ -9,3 +9,6 @@ def types(x):
         return "str"
     
     return "bool"
+
+
+    
