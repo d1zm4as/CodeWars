@@ -16,6 +16,9 @@ int uni_total(const char *s) {
 int main(){
 
     char s[] = "GGG";
+  
+    printf("%d\n",soma);
+
     printf("%d\n",uni_total(s));
     return 0;
 }
