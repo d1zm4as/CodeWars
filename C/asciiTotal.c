@@ -16,9 +16,10 @@ int uni_total(const char *s) {
 int main(){
 
     char s[] = "GGG";
-  
+    char b[] = "Value is ";
     
 
     printf("%d\n",uni_total(s));
+    printf("%d\n",strlen(b));
     return 0;
 }
