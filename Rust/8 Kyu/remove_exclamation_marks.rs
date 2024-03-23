@@ -10,3 +10,6 @@ fn remove_exclamation_marks(input: &str) -> String {
         
     copy    
 }
+
+// input.replace("!", "") 
+// rust has replace !!!!!!!!!!!!!!!!!!!!!!!!!!!
