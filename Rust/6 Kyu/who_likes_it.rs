@@ -19,4 +19,4 @@ fn likes(names: &[&str]) -> String {
     }
     
     return format!("{}, {} and {} others like this", names[0],names[1],tam-2);
-        
+}
