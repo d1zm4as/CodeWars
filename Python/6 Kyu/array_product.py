@@ -1,15 +1,15 @@
-def prod(a):
+def prod(arr,idxloc):
     total = 1
-    for x in a:
-        total*=x
+    for idx,x in enumerate(arr):
+        if idx != idxloc:
+            total*=x
     return total
 
-a = [1,2,3,4]
 
-ref = prod(a)
+def product_sans_n(arr):
+    
+    lista = []
+    for idx,_ in enumerate(arr):
+        lista.append(prod(arr,idx))
 
-lista = []
-
-for x in a:
-    lista.append(int(ref/x))
-print(lista)
+    return lista
