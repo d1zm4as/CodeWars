@@ -14,7 +14,3 @@ for x in string:
 
 
 print(copy)
-
-
-
-
