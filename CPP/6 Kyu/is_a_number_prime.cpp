@@ -1,4 +1,4 @@
-include <cmath>
+#include <cmath>
 bool isPrime(int x) {
   if (x==2 || x == 3){
       return true;
