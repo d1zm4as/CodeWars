@@ -24,3 +24,4 @@ fn sum_consecutives(numbers: &Numbers) -> Numbers {
     }
     lista.push(copy);
     lista
+}
