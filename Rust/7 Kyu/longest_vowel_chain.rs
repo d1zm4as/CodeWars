@@ -1,6 +1,6 @@
 fn is_vowel(c: char) -> bool {
     match c {
-        'a' | 'A' | 'e' | 'E' | 'i' | 'I' | 'o' | 'O' | 'u' | 'U' => true,
+        'a'  | 'e'  | 'i'  | 'o'  | 'u'  => true,
         _ => false,
     }
 }
