@@ -29,5 +29,7 @@ fn main(){
 
     let a = "eai xuxu!";
     println!("{}",remove(a));
+    
+
 
 }
