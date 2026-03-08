@@ -1,0 +1,6 @@
+# There is a string of 32 alphanumeric characters hidden inside a dynamically generated function, which will then be passed into your function.
+
+# Your task is to recover this string and return it, should work on randmon studff as well.
+
+def find_the_secret(f):
+    return f.__code__.co_consts[1]
