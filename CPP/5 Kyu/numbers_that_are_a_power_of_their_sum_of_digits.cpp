@@ -1,3 +1,4 @@
+//eai
 unsigned long long powerSumDigTerm(unsigned n) {
     switch (n) {
         case 1: return 81ULL;
