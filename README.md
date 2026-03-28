@@ -14,12 +14,12 @@ CodeWars/
 
 Inside each language folder, solutions are grouped by `Kyu` (for example `8 Kyu`, `7 Kyu`, `6 Kyu`), and some folders include `dunno` for uncategorized solutions.
 
-## Current Coverage
+## Current Coverage (as of 2026-03-28)
 
-- Python: ~601 solutions
-- Rust: ~73 solutions
-- C: ~59 solutions
-- C++: ~30 solutions
+- Python: 608 solutions
+- Rust: 73 solutions
+- C: 59 solutions
+- C++: 30 solutions
 
 ## How Files Are Organized
 
