@@ -8,7 +8,7 @@ Rust solutions for Codewars challenges organized by `Kyu`.
 
 ## Current snapshot
 
-- Around 73 `.rs` solution files.
+- 73 `.rs` solution files.
 
 ## Usage
 

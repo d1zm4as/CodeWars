@@ -16,7 +16,7 @@ Inside each language folder, solutions are grouped by `Kyu` (for example `8 Kyu`
 
 ## Current Coverage (as of 2026-03-28)
 
-- Python: 608 solutions
+- Python: 619 solutions
 - Rust: 73 solutions
 - C: 59 solutions
 - C++: 30 solutions
@@ -60,3 +60,4 @@ rustc path/to/solution.rs -o solution
 
 - Solutions are focused on practice and learning, so style and approach may vary between files.
 - Some problems may have more than one valid implementation strategy.
+- Update counts with `scripts/update_readmes.sh`.

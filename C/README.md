@@ -9,7 +9,7 @@ C solutions organized by Codewars difficulty (`Kyu`).
 
 ## Current snapshot
 
-- Around 59 `.c` solution files.
+- 59 `.c` solution files.
 
 ## Usage
 

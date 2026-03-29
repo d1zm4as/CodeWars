@@ -8,7 +8,7 @@ C++ challenge solutions grouped by Codewars `Kyu` level.
 
 ## Current snapshot
 
-- Around 30 `.cpp` solution files.
+- 30 `.cpp` solution files.
 
 ## Usage
 
