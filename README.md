@@ -1,63 +1,43 @@
-# CodeWars Solutions Repository
+# Django + DRF Skeleton
 
-This repository stores my Codewars kata solutions across multiple languages, organized by difficulty level (`Kyu`).
+This is a minimal Django + Django REST Framework (DRF) starter with a single
+`Task` API and a clean project layout.
 
-## Repository Structure
+## Quick Start
 
-```text
-CodeWars/
-├── C/
-├── CPP/
-├── Python/
-└── Rust/
-```
-
-Inside each language folder, solutions are grouped by `Kyu` (for example `8 Kyu`, `7 Kyu`, `6 Kyu`), and some folders include `dunno` for uncategorized solutions.
-
-## Current Coverage (as of 2026-03-28)
-
-- Python: 619 solutions
-- Rust: 73 solutions
-- C: 59 solutions
-- C++: 30 solutions
-
-## How Files Are Organized
-
-- One file usually represents one kata solution.
-- File names typically reflect the kata/problem name.
-- Difficulty folders make it easy to track progression from beginner to advanced katas.
-
-## Running Solutions Locally
-
-### Python
-
+1. Create and activate a virtualenv:
 ```bash
-python3 path/to/solution.py
+python -m venv .venv
+source .venv/bin/activate
 ```
 
-### C
-
+1. Install dependencies:
 ```bash
-gcc path/to/solution.c -o solution
-./solution
+pip install -r requirements.txt
 ```
 
-### C++
-
+1. Run migrations:
 ```bash
-g++ path/to/solution.cpp -o solution
-./solution
+python manage.py makemigrations
+python manage.py migrate
 ```
 
-### Rust
-
+1. Start the server:
 ```bash
-rustc path/to/solution.rs -o solution
-./solution
+python manage.py runserver
 ```
 
-## Notes
+The API will be available at:
 
-- Solutions are focused on practice and learning, so style and approach may vary between files.
-- Some problems may have more than one valid implementation strategy.
-- Update counts with `scripts/update_readmes.sh`.
+- `GET /api/tasks/`
+- `POST /api/tasks/`
+- `GET /api/tasks/<id>/`
+- `PATCH /api/tasks/<id>/`
+- `DELETE /api/tasks/<id>/`
+
+## Project Structure
+
+- `manage.py`: Django management commands.
+- `config/`: Project settings and root URLs.
+- `api/`: Example app with a `Task` model, serializer, and viewset.
+- `requirements.txt`: Django + DRF dependencies.

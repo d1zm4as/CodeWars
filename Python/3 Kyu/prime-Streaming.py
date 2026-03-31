@@ -1,10 +1,17 @@
-import gmpy2
+from gmpy2 import mpz, next_prime
+
+
+def primes():
+    """Infinite prime generator optimized via gmpy2.next_prime."""
+    n = mpz(1)
+    _next = next_prime
+    while True:
+        n = _next(n)
+        yield n
+
+
 class Primes:
     @staticmethod
     def stream():
-        n = 2
-        while n<100000000000:
-            yield n
-            n = gmpy2.next_prime(n)
-
+        return primes()
 
