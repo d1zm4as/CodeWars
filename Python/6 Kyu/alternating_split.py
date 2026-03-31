@@ -14,34 +14,24 @@
 
 # If the string S is an empty value or the integer N is not positive, return the first argument without changes.
 
-# def decrypt(s, termo):
-#     cont = 0
-#     while cont<termo*7:
-#         par = ""
-#         impar = ""
-#         for idx,x in enumerate(s):
-#             if idx%2==0:
-#                 impar+=x
-#             else:
-#                 par+=x
-#         s  = par+impar
-#         cont+=1
-#     return s
+def decrypt(encrypted_text, n):
+    copy = ""
+    if encrypted_text == "" or n <= 0:
+        return encrypted_text
+    for i in range(len(encrypted_text) // 2):
+        copy += encrypted_text[len(encrypted_text) // 2 + i]
+        copy += encrypted_text[i]
+    if len(encrypted_text) % 2 != 0:    
+        copy += encrypted_text[len(encrypted_text) - 1]
+    return decrypt(copy, n - 1) 
 
-# def encrypt(s, termo):
 
-#     cont = 0
-#     while cont<termo:
-#         par = ""
-#         impar = ""
-#         for idx,x in enumerate(s):
-#             if idx%2==0:
-#                 par+=x
-#             else:
-#                 impar+=x
-#         s  = impar+par
-#         cont+=1
-#     return s
-
-# upgrade the code above
-
+def encrypt(text, n):
+    copy = ""
+    if text == "" or n <= 0:
+        return text
+    for i in range(1, len(text), 2):
+        copy += text[i]
+    for i in range(0, len(text), 2):
+        copy += text[i]
+    return encrypt(copy, n - 1)
