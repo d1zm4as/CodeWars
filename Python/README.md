@@ -9,7 +9,7 @@ Python solutions for Codewars katas, organized by difficulty.
 
 ## Current snapshot
 
-- 635 `.py` files.
+- 643 `.py` files.
 - 3 `.js` files stored alongside Python solutions.
 
 ## Usage
